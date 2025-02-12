@@ -1,0 +1,18 @@
+/* === Real-Time Alerts === */
+.real-time-alerts {
+    margin-top: 20px;
+  }
+  
+  .alert-box {
+    background-color: #ffcccb;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .dark-mode .alert-box {
+    background-color: #661919;
+    color: white;
+  }
+  

@@ -1,0 +1,26 @@
+/* === Homepage Styling === */
+.home-container {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 1.2rem;
+    color: gray;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 10px;
+  }
+  

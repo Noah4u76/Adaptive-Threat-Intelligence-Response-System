@@ -1,0 +1,32 @@
+/* === Chart Container Styling === */
+.chart-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow */
+    margin: 20px auto;
+    max-width: 800px;  /* Prevent infinite stretching */
+    width: 90%; /* Adjust width to be responsive */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the chart */
+  }
+  
+  .dark-mode .chart-container {
+    background-color: #252525;
+  }
+  
+  /* === Chart Canvas Resizing === */
+  .chart-container canvas {
+    max-width: 100% !important; /* Prevent stretching */
+    height: 300px !important; /* Set explicit height */
+  }
+  
+  /* === Centered Text === */
+  .chart-container h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  

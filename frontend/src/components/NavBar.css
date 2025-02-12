@@ -1,0 +1,44 @@
+/* === Navbar Styling === */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .navbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Align Navbar items to the right */
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  /* Style for the Dark Mode Button */
+  .dark-mode-toggle {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .dark-mode-toggle:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Hamburger Menu */
+  .menu-icon {
+    margin-left: auto;
+  }
+  
+  /* Dark Mode Navbar */
+  .dark-mode .MuiAppBar-root {
+    background-color: #222 !important;
+  }
+  
+  .dark-mode .navbar-title,
+  .dark-mode .MuiButton-root {
+    color: white !important;
+  }
+  
